@@ -1,0 +1,34 @@
+body {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  row-gap: 2vh;
+}
+
+body.swal2-shown>[aria-hidden="true"] {
+  filter: blur(10px);
+}
+
+body>* {
+  transition: 0.1s filter linear;
+}
+
+.title{
+  font-size: xx-large;
+}
+.subtitle{
+  font-size: x-large;
+}
+
+step {
+  text-decoration: underline;
+}
+
+.missing {
+  color: red;
+}
+
+.validated {
+  color: green;
+}

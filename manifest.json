@@ -1,0 +1,19 @@
+{
+  "name" : "Private History",
+  "description" : "secure your browsing history with a password",
+  "version" : "0.0.0",
+  "manifest_version": 2,
+  "background" : {
+    "scripts": [
+      "background.js"
+    ],
+    "persitent" : true
+  },
+  "permissions" : [
+    "tabs",
+    "history",
+    "storage",
+    "webNavigation",
+    "unlimitedStorage"
+  ]
+}
